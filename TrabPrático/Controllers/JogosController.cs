@@ -16,7 +16,7 @@ namespace TrabPrático.Controllers
 
         public JogosController(ApplicationDbContext context)
         {
-            _context = context;
+             _context = context;
         }
 
         // GET: Jogos
