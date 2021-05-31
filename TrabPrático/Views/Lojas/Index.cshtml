@@ -13,13 +13,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                <a>Nome da Loja</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Jogo.Nome)
+                <a>Nome do Jogo</a>
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagemLoja)
+            <th style="text-align: center">
+                <a>Logo da Loja</a>
             </th>
             <th></th>
         </tr>
@@ -33,7 +33,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Jogo.Nome)
             </td>
-            <td >
+            <td style="text-align: center">
                 <a href="@Html.DisplayFor(modelItem => item.Link)" ><img src="~/fotoloja/@Html.DisplayFor(modelItem => item.ImagemLoja) "
                                                                                         width="150"
                                                                                         alt="Fotografia do @Html.DisplayFor(modelItem => item.Nome)"

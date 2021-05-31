@@ -10,29 +10,34 @@
     <h4>Loja</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
+        <dt class="col-sm-2">
+            <a>Nome da Loja</a>
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Nome)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagemLoja)
+        <dt class="col-sm-2">
+            <a>Nome do Jogo</a>
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagemLoja)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Jogo.Nome)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Link)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Link)
+        <dd class="col-sm-10">
+            <a href="@Html.DisplayFor(model => model.Link)">@Html.DisplayFor(model => model.Link)</a>
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Jogo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Jogo.IdJogo)
+        <dt class="col-sm-2">
+            <a>Logo da Loja</a>
+</dt>
+        <dd class="col-sm-10">
+            <a href="@Html.DisplayFor(model => model.Link)">
+                <img src="~/fotoloja/@Html.DisplayFor(model => model.ImagemLoja) "
+                     width="150"
+                     alt="Fotografia do @Html.DisplayFor(model => model.Nome)"
+                     title="@Html.DisplayFor(model => model.Nome)" />
+            </a>
         </dd>
     </dl>
 </div>
