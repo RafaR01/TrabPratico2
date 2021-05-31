@@ -55,7 +55,30 @@
                 @Html.DisplayFor(modelItem => item.CategoriaIdade)
             </td>
             <td style="text-align: center">
-                @Html.DisplayFor(modelItem => item.Nota)
+                @if (item.Nota < 45)
+                {
+                    <div style=" background-color: #ff0000">
+                        @Html.DisplayFor(modelItem => item.Nota)
+                    </div>
+                }
+                else if (item.Nota >= 45 && item.Nota < 75)
+                {
+                    <div style="background-color: yellow">
+                        @Html.DisplayFor(modelItem => item.Nota)
+                    </div>
+                }
+                else if (item.Nota >= 75 && item.Nota < 90)
+                {
+                    <div style="background-color: greenyellow">
+                        @Html.DisplayFor(modelItem => item.Nota)
+                    </div>
+                }
+                else if (item.Nota >= 90)
+                {
+                    <div style=" background-color: #00cc00">
+                        @Html.DisplayFor(modelItem => item.Nota)
+                    </div>
+                }
             </td>
             <td style="text-align: center">
                 @Html.DisplayFor(modelItem => item.DataLancamento)

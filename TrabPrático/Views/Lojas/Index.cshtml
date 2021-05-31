@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<TrabPrático.Models.Loja>
 
 @{
-    ViewData["Title"] = "Loja";
+    ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Loja</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -33,12 +33,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Jogo.Nome)
             </td>
-            <td>
-                <a href="@Html.DisplayFor(modelItem => item.Link)" target="_blank" class="imagem"><img src="~/fotoloja/@Html.DisplayFor(modelItem => item.ImagemLoja)"
-                                                                        width="150"
-     alt="Fotografia do @Html.DisplayFor(modelItem => item.Nome)"
-     title="@Html.DisplayFor(modelItem => item.Nome)" /></a>
-                       
+            <td >
+                <a href="@Html.DisplayFor(modelItem => item.Link)" ><img src="~/fotoloja/@Html.DisplayFor(modelItem => item.ImagemLoja) "
+                                                                                        width="150"
+                                                                                        alt="Fotografia do @Html.DisplayFor(modelItem => item.Nome)"
+                                                                                        title="@Html.DisplayFor(modelItem => item.Nome)" /></a>    
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdLoja">Edit</a> |
