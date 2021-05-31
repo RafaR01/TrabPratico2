@@ -107,5 +107,7 @@ namespace TrabPrático.Data
         }
 
         public DbSet<TrabPrático.Models.Jogos> Jogos { get; set; }
+
+        public DbSet<TrabPrático.Models.Loja> Loja { get; set; }
     }
 }
