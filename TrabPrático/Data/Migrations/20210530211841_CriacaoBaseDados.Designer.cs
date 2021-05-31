@@ -87,7 +87,7 @@ namespace TrabPrático.Data.Migrations
                             CategoriaIdade = "17+",
                             DataLancamento = new DateTime(2015, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Descricao = "The Witcher 3: Wild Hunt é um jogo eletrónico de ação do subgénero RPG desenvolvido pela CD Projekt RED e lançado no dia 19 de maio de 2015 para as plataformas Microsoft Windows, PlayStation 4, Xbox One e em outubro de 2019 para a Nintendo Switch, sendo o terceiro título da série de jogos The Witcher.Ele sucede The Witcher e The Witcher 2: Assassins of Kings(2011), que foram baseados na série de livros de fantasia Wiedźmin, do escritor polonês Andrzej Sapkowski.",
-                            Imagem = "TW3_Wild_Hunt.png",
+                            Imagem = "TW3_Wild_Hunt.jpg",
                             Media = 0.0,
                             Nome = "The Witcher 3: Wild Hunt",
                             Nota = 93.0,
@@ -147,7 +147,7 @@ namespace TrabPrático.Data.Migrations
                             CategoriaIdade = "3+",
                             DataLancamento = new DateTime(2019, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Descricao = "Need for Speed Heat é um jogo eletrónico de corrida desenvolvido pela Ghost Games e publicado pela Electronic Arts para Microsoft Windows, PlayStation 4 e Xbox One. Este é o vigésimo quarto jogo de série Need for Speed e comemora o aniversário de 25 anos da série.",
-                            Imagem = "NeedForSpeed.png",
+                            Imagem = "NeedForSpeed.jpg",
                             Media = 0.0,
                             Nome = "Need for Speed Heat",
                             Nota = 72.0,
@@ -208,7 +208,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 1,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 1,
                             Link = "https://store.steampowered.com/app/1313860/EA_SPORTS_FIFA_21/",
                             Nome = "Steam"
@@ -216,7 +216,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 2,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 2,
                             Link = "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
                             Nome = "Steam"
@@ -224,7 +224,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 3,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 3,
                             Link = "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
                             Nome = "Steam"
@@ -232,7 +232,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 4,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 4,
                             Link = "https://store.steampowered.com/app/582160/Assassins_Creed_Origins/",
                             Nome = "Steam"
@@ -240,7 +240,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 5,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 5,
                             Link = "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
                             Nome = "Steam"
@@ -248,7 +248,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 6,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 6,
                             Link = "https://store.steampowered.com/app/1263850/Football_Manager_2021/",
                             Nome = "Steam"
@@ -256,7 +256,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 7,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 7,
                             Link = "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
                             Nome = "Steam"
@@ -264,7 +264,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 8,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 8,
                             Link = "https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/",
                             Nome = "Steam"
@@ -272,7 +272,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 9,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 9,
                             Link = "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/",
                             Nome = "Steam"
@@ -280,7 +280,7 @@ namespace TrabPrático.Data.Migrations
                         new
                         {
                             IdLoja = 10,
-                            ImagemLoja = "steamlogo.png",
+                            ImagemLoja = "steamlogo.jpg",
                             JogoFK = 10,
                             Link = "https://store.steampowered.com/app/552520/Far_Cry_5/",
                             Nome = "Steam"
